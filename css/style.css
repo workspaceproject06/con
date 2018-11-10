@@ -191,7 +191,7 @@ position:absolute;
 #testimonial{
 margin-top:40px;
 background:linear-gradient(rgba(47, 23, 15, 0.55), rgba(47, 23, 15, 0.55)),url('../img/bed.jpg')no-repeat center;
-padding:20px;
+padding:10px;
 }
 #testimonial img{
 width:80px;
