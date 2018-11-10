@@ -114,6 +114,9 @@ color:#888 !important;
 #appointment .thumbnail{
 border:0px !important;
 }
+#appointment .thumbnail img{
+width:500px;
+}
 #appointment .btn{
 background:#00b85d;
 color:#fff;
@@ -186,8 +189,9 @@ position:absolute;
 
 /*TESTIMONIAL SECTION*/
 #testimonial{
-margin-top:60px;
-background:background:linear-gradient(rgba(47, 23, 15, 0.55), rgba(47, 23, 15, 0.55)),url('../img/bed.jpg')no-repeat center;
+margin-top:40px;
+background:linear-gradient(rgba(47, 23, 15, 0.55), rgba(47, 23, 15, 0.55)),url('../img/bed.jpg')no-repeat center;
+padding:20px;
 }
 #testimonial img{
 width:80px;
@@ -196,8 +200,8 @@ border-radius:50%;
 
 #testimonial h4{
 font-family:roboto;
-font-size:13px !important;	
-color:#888 !important;
+font-size:16px !important;	
+color:#fff !important;
 }
 
 /*CONTACT SECTION*/
