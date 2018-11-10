@@ -28,8 +28,8 @@ margin-top:10px;
 
 #more{
 background:skyblue;
-color:#fff;
-border:none;
+color:#fff !important;
+border:none !important;
 }
 .navbar-collapse{
 border:none;
@@ -111,23 +111,19 @@ width:100% !important;
 padding:8px 8px !important;
 color:#888 !important;
 }
-#appointment .thumbnail img{
-height:475px;
-}
-
 #appointment .thumbnail{
 border:0px !important;
 }
 #appointment .btn{
-background:#00b85d !important;
-color:#fff !important;
+background:#00b85d;
+color:#fff;
 transition:0.2s;
 border-radius:0px;
 }
 #appointment .btn:hover{
-background:#fff !important;
-color:#aaa !important;
-border:2px solid skyblue !important;
+background:#fff;
+color:#aaa;
+border:2px solid skyblue;
 }
 /*BLOG SECTION*/
 #blog{
@@ -191,6 +187,7 @@ position:absolute;
 /*TESTIMONIAL SECTION*/
 #testimonial{
 margin-top:60px;
+background:background:linear-gradient(rgba(47, 23, 15, 0.55), rgba(47, 23, 15, 0.55)),url('../img/bed.jpg')no-repeat center;
 }
 #testimonial img{
 width:80px;
@@ -223,11 +220,11 @@ margin-top:30px;
 }
 
 #footer .modal-content{
-width:300px;
-height:400px;
+width:100%;
+height:100%;
 background:snow;
 border-radius:10px;
-border:5px solid seagreen;
+border:3px solid seagreen;
 }
 
 .modal-header{
@@ -237,55 +234,7 @@ border-bottom:0px;
 }
 
 
-/*MEDIA QUERY FOR LARGER VIEWPORTS*
-@media(min-width:996px){
 
-body{
-font-family: 'Roboto Condensed', sans-serif;
-}
 
-.navbar-inverse {
-background:#fff !important;
-box-shadow:5px 0px 20px rgba(0,0,0,0.2);
-}
-.navbar-inverse li a{
-font-size:2rem;
-}
-.navbar-inverse li span{
-margin-top:10px;
-}
-/*CAROUSEL SHOWCASE SECTION*
-.carousel-inner img{
-width:100%;
-margin:auto;	
-height:75vh !important;
-margin-bottom:50px;
-}
-/*SPECIALITIES SECTION*
 
-#specialities span{
-font-size:6rem !important;
-color:orange;
-}
-/*care section*
-#care{
-margin-top:60px;
-}
-#care p{
-font-size:2rem;
-}
-
-#care i{
-font-size:6rem;
-color:#f2c210;
-}
-/*BLOG SECTION*
-#blog{
-margin-top:60px;
-}
-
-#blog .caption{
-font-size:1.8rem;
-}
-}
 
