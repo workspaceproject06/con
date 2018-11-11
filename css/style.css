@@ -353,6 +353,8 @@ border:0px !important;
 }
 #appointment .thumbnail img{
 width:500px;
+height:475px;
+margin-left:-20px;
 }
 #appointment .btn{
 background:#00b85d;
