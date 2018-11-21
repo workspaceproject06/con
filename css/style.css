@@ -34,7 +34,10 @@ border:none !important;
 .navbar-collapse{
 border:none;
 }
-  
+
+#large-vp{
+display:none;
+}
 
 /*CAROUSEL SHOWCASE SECTION*/
 #showcase .carousel-inner img{
@@ -474,16 +477,6 @@ border:3px solid seagreen;
 
 .modal-header{
 border-bottom:0px;
-}
-}
-
-/*larger viewports*/
-@media(max-width:1025px){
-.navbar-default {
- margin-top:10px;
-} 
-#large-vp span{
-color:red;
 }
 }
 
