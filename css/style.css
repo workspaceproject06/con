@@ -38,16 +38,21 @@ border:none;
 #large-vp{
 display:none;
 } 
-  
+#small-vp ul li:nth-child(odd){
+background:green;
+color:#fff;	
+}
+
+#small-vp ul li:nth-child(even){
+background:#c1c1c1;
+color:#333;	
+} 
 #small-vp .list-group{
 border:2px solid green;
+width:200px;
+height:200px;
 }
-  
-#small-vp .list-group-item{
-border-bottom:1px solid green;
-color:#888;
-font-size:16px;
-}
+ 
 #small-vp span{
 color:red;
 }
