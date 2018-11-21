@@ -494,6 +494,9 @@ border-bottom:0px;
 
 /*larger viewports*/
 @media(min-width:1025px){
+.navbar-default {
+ margin-top:50px;
+} 
 #small-vp{
 display:none;
 }
