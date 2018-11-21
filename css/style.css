@@ -34,6 +34,21 @@ border:none !important;
 .navbar-collapse{
 border:none;
 }
+  
+  #large-vp{
+  display:none;
+  } 
+  
+  #small-vp .list-group{
+  border:2px solid green;
+  }
+  
+  #small-vp .list-group-item{
+  border-bottom:1px solid green;
+  color:#888;
+  font-size:16px;
+  }
+  
 /*CAROUSEL SHOWCASE SECTION*/
 #showcase .carousel-inner img{
 width:100%;
