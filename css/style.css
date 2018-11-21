@@ -498,9 +498,9 @@ border-bottom:0px;
 }
 
 /*larger viewports*/
-@media(min-width:1025px){
+@media(max-width:1025px){
 .navbar-default {
- margin-top:50px;
+ margin-top:10px;
 } 
 #small-vp{
 display:none;
