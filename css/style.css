@@ -35,27 +35,7 @@ border:none !important;
 border:none;
 }
   
-#large-vp{
-display:none;
-} 
-#small-vp ul li:nth-child(odd){
-background:green;
-color:#fff;	
-}
 
-#small-vp ul li:nth-child(even){
-background:#c1c1c1;
-color:#333;	
-} 
-#small-vp .list-group{
-border:2px solid green;
-width:200px;
-height:200px;
-}
- 
-#small-vp span{
-color:red;
-}
 /*CAROUSEL SHOWCASE SECTION*/
 #showcase .carousel-inner img{
 width:100%;
@@ -502,9 +482,6 @@ border-bottom:0px;
 .navbar-default {
  margin-top:10px;
 } 
-#small-vp{
-display:none;
-}
 #large-vp span{
 color:red;
 }
