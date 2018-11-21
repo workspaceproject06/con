@@ -48,7 +48,9 @@ border:none;
   color:#888;
   font-size:16px;
   }
-  
+  #small-vp span{
+  color:red;
+  }
 /*CAROUSEL SHOWCASE SECTION*/
 #showcase .carousel-inner img{
 width:100%;
@@ -488,9 +490,16 @@ border:3px solid seagreen;
 .modal-header{
 border-bottom:0px;
 }
-
 }
 
-
+/*larger viewports*/
+@media(min-width:1025px){
+#small-vp{
+display:none;
+}
+#large-vp span{
+color:red;
+}
+}
 
 
